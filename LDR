@@ -6,5 +6,5 @@ local Games = {
 }
 
 if Games[game.CreatorId] then
-    loadstring(game:HttpGet(Games[game.CreatorId]))
+    loadstring(game:HttpGet(Games[game.CreatorId]))()
 end
